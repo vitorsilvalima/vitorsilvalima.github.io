@@ -3,7 +3,18 @@
     z-index: 5;
     color: #fff;
     background-color: #39a5dc; 
+
+    //max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+
 }
+.header_content{
+    max-width: calc(800px - (10px * 2));
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .nav{
     
     ul {
