@@ -1,0 +1,16 @@
+---
+
+---
+@import "minima";
+
+
+$mainColor : #39a5dc;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+ @import
+        "base",
+        "header",
+        "posts",
+        "main"
+//         "syntax-highlighting"
+;

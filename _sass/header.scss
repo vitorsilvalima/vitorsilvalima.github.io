@@ -1,0 +1,47 @@
+.header{
+    padding: 48px 0;
+    z-index: 5;
+    color: #fff;
+    background-color: #39a5dc; 
+}
+.nav{
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        text-align:center;
+    }
+
+    // li {
+    //     float: left;
+    // }
+
+    li {
+        display:inline;
+    }
+
+    li a {
+        display:inline-block;
+        padding: 20px 40px;
+        text-decoration: none;
+        color: white;
+    }
+    // li a {
+    //     display: block;
+    //     color: white;
+    //     text-align: center;
+    //     padding: 20px 40px;
+    //     text-decoration: none;
+    // }
+
+    li a:hover:not(.active) {
+        color: #3487C4
+    }
+
+    .active {
+        background-color: #4CAF50;
+    }
+}

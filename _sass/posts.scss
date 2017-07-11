@@ -1,0 +1,57 @@
+.wrapper{
+    background-color: white;
+    padding: 62px;
+}
+.post {
+ 
+    .highlight{
+        background: #2d313a;
+    }
+    pre{
+        code{
+            background-color: transparent;
+        }
+        border-left: 4px solid $mainColor;
+        border-right: 4px solid $mainColor;
+        position: relative;
+        overflow: visible;
+        margin: 48px -64px;
+        white-space: pre;
+        word-wrap: normal;
+        background: #2d313a;
+        color: #C1C2C3;
+      @media screen and (max-width: 850px) {
+        margin: 48px -40px;
+      }
+      @media screen and (max-width: 500px) {
+        margin: 32px -24px;
+      }
+      ::before {
+        content : "";
+        background: {
+          color: $mainColor;
+          image: url(/img/icons/code.svg);
+          size: 20px;
+          position: center;
+          repeat: no-repeat;
+        }
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: white;
+        line-height: 0;
+        width: 35px;
+        height: 35px;
+        border-radius: 80%;
+        font: {
+          size: 10px;
+          weight: 20;
+        }
+      }
+      ::after {
+        content: "";
+      }
+    }
+
+}
+

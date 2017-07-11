@@ -9,6 +9,14 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
+```js
+const input$ = Rx.Observable.fromEvent(node, 'input')
+  .map(event => event.target.value)
+  .filter(value => value.length >= 2)
+  .subscribe(value => {
+    // use the `value`
+  });
+```
 
 {% highlight ruby %}
 def print_hi(name)
